@@ -4,7 +4,7 @@
 title = iRecordMax
 
 # (str) Package name
-package.name = ilyassaadidil.python
+package.name = com.kivymdappaudio
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
 
@@ -36,7 +36,7 @@ version = 1.7
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.2.1,googleapiclient,pydub,PyAudio,pillow,wave,threading,time,google-api-python-client,google-auth-httplib2,google-auth-oauthlib,libffi==3.3
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,googleapiclient,pydub,PyAudio,pillow,wave,threading,time,google-api-python-client,google-auth-httplib2,google-auth-oauthlib,libffi==3.3
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
